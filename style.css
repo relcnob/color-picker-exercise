@@ -43,12 +43,13 @@ body {
   width: 40px;
   padding: 0;
   cursor: pointer;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 #colorpicker::-webkit-color-swatch {
   border-radius: 0.25rem;
   border: none;
+  border: solid 1px rgb(63, 63, 63);
 }
 
 .color-picker-wrapper {

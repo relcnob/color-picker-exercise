@@ -1,6 +1,8 @@
 "uses strict";
-showColor();
+// showColor();
 document.querySelector("input").addEventListener("input", showColor);
+
+showColor();
 
 function showColor() {
   // HEX
